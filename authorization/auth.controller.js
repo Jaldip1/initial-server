@@ -1,4 +1,4 @@
-import bcrypt from "bcrypt-nodejs";
+import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
 import configkeys from "../config";
 import { Users } from "../api/users/users.model";

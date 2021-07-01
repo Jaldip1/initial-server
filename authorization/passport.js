@@ -5,7 +5,7 @@ import { Users } from "./../api/users/users.model";
 const passport = require("passport");
 const JwtStrategy = require("passport-jwt").Strategy;
 const LocalStrategy = require("passport-local");
-const bcrypt = require("bcrypt-nodejs");
+const bcrypt = require("bcrypt");
 
 // Ceate Local Strategy
 const localOptions = {
