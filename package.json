@@ -17,9 +17,6 @@
     "dev:server": "nodemon --exec babel-node -- ./index.js",
     "build": "babel . -d build/server --copy-files --ignore node_modules"
   },
-  "engines": {
-    "node": ">=8.9.1"
-  },
   "browserslist": [
     "> 1%",
     "ie > 9"
